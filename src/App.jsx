@@ -4,10 +4,10 @@ import Catalog from "./components/Сatalog";
 
 const App = () => {
   return (
-    <div>
+    <>
       <Hero />
       <Catalog />
-    </div>
+    </>
   );
 };
 
