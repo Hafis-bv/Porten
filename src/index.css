@@ -2,4 +2,20 @@
 
 @theme {
   --font-bills: "Stick No Bills", sans-serif;
+  --font-display: "Playfair Display", serif;
+}
+
+body {
+  @apply bg-black;
+}
+
+.text-before::before {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 2px;
+  background-color: #fff;
+  top: 80px;
+  left: 50%;
+  transform: translateX(-50%);
 }
