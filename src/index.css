@@ -3,6 +3,8 @@
 @theme {
   --font-bills: "Stick No Bills", sans-serif;
   --font-display: "Playfair Display", serif;
+
+  --breakpoint-xs: 500px;
 }
 
 body {
@@ -13,9 +15,9 @@ body {
   content: "";
   position: absolute;
   width: 120px;
-  height: 2px;
+  height: 1px;
   background-color: #fff;
-  top: 80px;
+  top: 60px;
   left: 50%;
   transform: translateX(-50%);
 }

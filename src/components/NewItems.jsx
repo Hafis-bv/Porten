@@ -1,17 +1,18 @@
-import React from "react";
 import { products } from "../db/product";
+import SectionTitle from "./SectionTitle";
 
 const NewItems = () => {
   return (
-    <div className="flex flex-col mb-36 justify-center items-center font-display">
-      <h1 className=" text-center relative uppercase text-before text-4xl font-bold my-30 text-white">
-        новые поступления
-      </h1>
-      <div className="flex max-w-7xl flex-wrap gap-5.5 justify-center items-center">
+    <div className="flex flex-col my-36 justify-center items-center font-display">
+      <SectionTitle title="новые поступления" underline />
+      <div className="flex max-w-7xl flex-wrap gap-5.5 mt-20 justify-center items-center">
         {products.map((product) => (
-          <div className=" text-white">
+          <div
+            key={product.id}
+            className="w-full xs:w-max text-white mx-5 xs:mx-0"
+          >
             <img
-              className=" bg-[#191B1C] px-5.5 py-14"
+              className=" bg-[#191B1C] px-5.5 py-14 w-full xs:w-max"
               src={product.image}
               alt="New item"
             />

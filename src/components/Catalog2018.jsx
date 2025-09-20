@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import SectionTitle from "./SectionTitle";
 
 const Catalog2018 = () => {
   return (
@@ -10,9 +11,7 @@ const Catalog2018 = () => {
         alt="2018"
       />
       <div className="flex justify-center items-center mx-auto lg:h-full flex-col gap-10 py-10 px-5 text-white text-center">
-        <h1 className="uppercase font-display text-4xl relative text-before w-max">
-          коллекция 2018
-        </h1>
+        <SectionTitle title="коллекция 2018" underline />
         <p className="mt-10 max-w-118">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non rutrum
           ornare ut mattis habitant dui arcu. Sagittis amet nunc ut neque quis
