@@ -23,7 +23,7 @@ const Catalog2018 = () => {
           ullamcorper scelerisque risus dignissim egestas. Id aliquam a aliquam
           egestas leo orci pharetra sed diam.
         </p>
-        <Link className="uppercase border px-7 py-3 text-lg ">
+        <Link to={"#"} className="uppercase border px-7 py-3 text-lg ">
           посмотреть коллекцию
         </Link>
       </div>
