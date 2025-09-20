@@ -5,7 +5,11 @@ import SectionTitle from "./SectionTitle";
 const NewItems = () => {
   return (
     <div className="flex flex-col my-36 justify-center items-center font-display">
-      <SectionTitle title="новые поступления" underline />
+      <SectionTitle
+        className="!text-center"
+        title="новые поступления"
+        underline
+      />
       <Container className="flex flex-wrap gap-5.5 max-w-7xl mt-20 justify-center items-center">
         {products.map((product) => (
           <div

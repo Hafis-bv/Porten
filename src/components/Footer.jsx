@@ -31,14 +31,16 @@ const Footer = () => {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mi semper
             viverra nunc cursus tortor lectus nunc nulla nibh.
           </p>
-          <input
-            className=" bg-[#FFFFFF66] py-2.5 px-5"
-            placeholder="Ваша почта"
-            type="email"
-          />
-          <button className=" cursor-pointer uppercase py-2.5 px-5 bg-[#0F0F0F]">
-            ПОДПИСАТЬСЯ
-          </button>
+          <div className=" relative w-full">
+            <input
+              className=" bg-[#FFFFFF66] py-2.5 px-5 w-full"
+              placeholder="Ваша почта"
+              type="email"
+            />
+            <button className=" absolute right-0 cursor-pointer uppercase py-2.5 px-5 bg-[#0F0F0F]">
+              ПОДПИСАТЬСЯ
+            </button>
+          </div>
         </FooterCol>
       </Container>
     </footer>

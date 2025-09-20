@@ -7,7 +7,7 @@ const Hero = () => {
         <h1 className=" font-bills font-bold text-[64px]">Porten</h1>
         <p className=" font-normal text-[22px] border-t-4">санкт-петербург</p>
       </div>
-      <p className=" max-w-182 ">
+      <p className=" max-w-182 px-3 ">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Purus interdum
         purus, est tortor pulvinar ut in. Fringilla a diam enim sed justo, sed
         iaculis sagittis. Tortor id eu interdum nec ut iaculis. Penatibus

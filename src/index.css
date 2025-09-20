@@ -3,7 +3,7 @@
 @theme {
   --font-bills: "Stick No Bills", sans-serif;
   --font-display: "Playfair Display", serif;
-
+  --breakpoint-2xs: 450px;
   --breakpoint-xs: 500px;
 }
 
