@@ -18,7 +18,7 @@ const Footer = () => {
           </p>
         </FooterCol>
         <FooterCol title={"Категории"}>
-          <div className="flex gap-5 flex-wrap max-w-80">
+          <div className="flex gap-5 flex-wrap justify-center max-w-80">
             <Link className="py-2.5 px-5 bg-[#0F0F0F]">часы</Link>
             <Link className="py-2.5 px-5 bg-[#0F0F0F]">браслеты</Link>
             <Link className="py-2.5 px-5 bg-[#0F0F0F]">ремни</Link>
